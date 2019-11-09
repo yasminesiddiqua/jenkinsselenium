@@ -15,6 +15,7 @@ public class SampleTestCase {
 	
 	@BeforeClass
 	public static void setup(){
+		System.out.println("setup...");
 		System.setProperty("webdriver.chrome.driver","/Users/puneetvashisht/Downloads/chromedriver");
 		driver = new ChromeDriver();
 
